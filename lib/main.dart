@@ -53,12 +53,13 @@ Future<void> main() async {
   if (GetPlatform.isWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyD0Z911mOoWCVkeGdjhIKwWFPRgvd6ZyAw",
-        authDomain: "stackmart-500c7.firebaseapp.com",
-        projectId: "stackmart-500c7",
-        storageBucket: "stackmart-500c7.appspot.com",
-        messagingSenderId: "491987943015",
-        appId: "1:491987943015:web:d8bc7ab8dbc9991c8f1ec2",
+        apiKey: "AIzaSyDJHmgaPOqD7ZFamramOJv2PcLUuGjU0l8",
+  authDomain: "taskpinoymart.firebaseapp.com",
+  projectId: "taskpinoymart",
+  storageBucket: "taskpinoymart.firebasestorage.app",
+  messagingSenderId: "636185685332",
+  appId: "1:636185685332:web:24267acff148820baeecc1",
+  measurementId: "G-JPC0BJ3FV4"
       ),
     );
   } else if (GetPlatform.isAndroid) {
